@@ -1,3 +1,153 @@
 body {
-    font-family: ;
+    font-family: 'Lato', sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #f8f4ee;
+}
+
+nav {
+    background-color: #F2E0C8;
+    color: #2e2b2b;
+    padding: 20px 50px;
+}
+
+.navTop {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    background-color: #383636;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.searchInput {
+    border: none;
+    background-color: transparent;
+}
+
+.searchInput::placeholder {
+    color: lightgray;
+}
+
+.searchIcon {
+    color: lightgray;
+}
+
+.limitedOffer {
+    font-size: 20px;
+    border-bottom: 2px solid rgb(187, 112, 216);
+    cursor: pointer;
+}
+
+.navBottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menuItem {
+    margin-right: 50px;
+    cursor: pointer;
+    color: #383636;
+    font-weight: 400;
+}
+
+.container {
+    justify-content: space-around;
+}
+
+.productImg {
+    border-radius: 20px;
+    margin-top: 50px;
+}
+
+.productTitle {
+    font-size: 25px;
+}
+
+.productPrice {
+    font-size: 20px;
+}
+
+.product {
+    height: 100vh;
+    background-color: #f8f4ee;
+    position: relative;
+}
+
+.itemImg {
+    width: 50%;
+}
+
+.itemDetails {
+   position: absolute; 
+   top: 10%;
+   right: 0;
+   width: 40%;
+}
+
+.itemTitle {
+    font-weight: 700;
+}
+
+.itemDescription {
+    font-style: 24px;
+    color: gray;
+}
+
+.colors,.sizes {
+    display: flex;
+}
+
+.color1 {
+    width: 32px;
+    height: 32px;
+    border-radius: 5px;
+    background-color: black;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.color2 {
+    width: 32px;
+    height: 32px;
+    border-radius: 5px;
+    background-color: brown;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.color3 {
+    width: 32px;
+    height: 32px;
+    border-radius: 5px;
+    background-color: lightblue;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.size {
+    padding: 5px 20px;
+    border: 1px solid gray;
+    margin-right: 10px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+button {
+    padding: 10px 20px;
+    border-radius: 15px;
+    background-color: #F2E0C8;
+    color: #383636;
+    border: none;
+}
+
+button:hover {
+    background-color: #383636;
+    color: #F2E0C8;
 }
