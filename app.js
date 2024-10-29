@@ -82,7 +82,7 @@ const currentItemSize = document.querySelectorAll(".size")
 
 menuItems.forEach((item, index) => {
   item.addEventListner("click", () => {
-   container.style.transform = `translateY(${-100 * index}vw)`; 
+   container.style.transform = `translateX(${-100 * index}vw)`; 
 
   chosenProduct = products[index]
 
@@ -97,7 +97,7 @@ menuItems.forEach((item, index) => {
 });
 
 currentItemColors.forEach((color,index)=>{
-  color,addEventListener("click", ()=> {
+  color.addEventListener("click", ()=> {
     currentItemImg.src = chosenItemcolors[index].img
-  })
-})
+  });
+});

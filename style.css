@@ -80,6 +80,41 @@ nav {
     position: relative;
 }
 
+.payment {
+    width: 500px;
+    height: 500px;
+    background-color: #f8f4ee;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding: 10px 54px;
+    display: flex;
+    flex-direction: column;
+}
+
+.payTitle {
+    font-size: 24px;
+    color: #383636;
+}
+
+label {
+    font-size: 14px;
+    font-weight: 500;
+    color: #383636;
+}
+
+.payInput {
+    padding: 10px;
+    margin: 10px 0px;  
+}
+
+.payInputp::placeholder {
+color: lightgray;
+}
+
 .itemImg {
     width: 50%;
 }
