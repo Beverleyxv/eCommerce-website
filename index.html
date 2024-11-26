@@ -4,6 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Clothing Store</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -14,7 +32,7 @@
                 <li><a href="#home">Home</a></li>
                 <li><a href="#shop">Shop</a></li>
                 <li><a href="#contact">Contact</a></li>
-                <li><a href="#cart">Cart</a></li>
+                <li><a href="cart.html">Cart</a></li>
             </ul>
         </nav>
     </header>
@@ -27,43 +45,42 @@
     <section id="shop" class="products-section">
         <h2>Our Products</h2>
         <div class="products-container"> 
-          <div class="product-card">
+          <div class="product-card" data-id="1">
             <div class="image-container">
               <img src="/images/Summer 1.jpeg" alt="" class="main-image">
               <img src="/images/Summer 2.jpeg" alt="" class="alt-image">
             </div>
-                <h3>Floral Dress</h3>
-                <p>R350.00</p>
+                <h3 class="product-name">Floral Dress</h3>
+                <p class="product-price">R350.00</p>
                 <button class="add-to-cart">Add to Cart</button>
             </div>
-            
-            <div class="product-card">
+            <div class="product-card" data-id="2">
               <div class="image-container">
                 <img src="/images/Corset 1.jpeg" alt="" class="main-image">
                 <img src="/images/Corset 2.jpeg" alt="" class="alt-image">
                 <img src="/images/Corset 3.jpeg" alt="" class="alt-image">
               </div>
-                <h3>Corset Top</h3>
-                <p>R200.00</p>
+                <h3 class="product-name">Corset Top</h3>
+                <p class="product-price">R200.00</p>
                 <button class="add-to-cart">Add to Cart</button>
             </div>
             
-            <div class="product-card">
+            <div class="product-card" data-id="3">
               <div class="image-container">
                 <img src="/images/Bodycon 1.jpeg" alt="" class="main-image">
                 <img src="/images/Bodycon 2.jpeg" alt="" class="alt-image">
               </div>
-              <h3>Bodycon Dress</h3>
-              <p>R250.00</p>
+              <h3 class="product-name">Bodycon Dress</h3>
+              <p class="product-price">R250.00</p>
               <button class="add-to-cart">Add to Cart</button>
           </div>
-          <div class="product-card">
+          <div class="product-card" data-id="4">
             <div class="image-container">
               <img src="/images/Bikini 1.jpeg" alt="" class="main-image">
               <img src="/images/Bikini 2.jpeg" alt="" class="alt-image">
           </div>
-            <h3>Bikini Set</h3>
-            <p>R250.00</p>
+            <h3 class="product-name">Bikini Set</h3>
+            <p class="product-price">R250.00</p>
             <button class="add-to-cart">Add to Cart</button>
         </div>
         </div>
@@ -72,6 +89,6 @@
     <footer>
         <p>© 2024 Estrella. All rights reserved.</p>
     </footer>
-    <script src="script.js"></script>
+    <script src="app.js"></script>
 </body>
 </html>
